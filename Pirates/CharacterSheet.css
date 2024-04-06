@@ -1,0 +1,12 @@
+img {
+    width: 100px;
+    height: 100px; 
+}
+
+.sheet-character-title {
+    width: 500px;
+}
+
+.sheet-character-name {
+    vertical-align: top !important;
+}
