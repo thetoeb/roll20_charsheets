@@ -1,0 +1,7 @@
+{
+    "html": "CharacterSheet.html",
+    "css": "CharacterSheet.css",
+    "authors": "Tobias & Fred",
+    "instructions": "Character sheet for pirates",
+    "legacy": false
+}

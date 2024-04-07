@@ -7,6 +7,43 @@ img {
     width: 500px;
 }
 
-.sheet-character-name {
-    vertical-align: top !important;
+.sheet-attribute-label {
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.sheet-table-content {
+    width: 200px;
+}
+
+.sheet-table-content select {
+    width: 150px;
+    margin-bottom: 0px;
+}
+
+.sheet-table-content input {
+    width: 150px;
+}
+
+.sheet-character-persondata {
+    grid-area: persondata;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 150px;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+
+.sheet-character-livedata {
+    grid-area: livedata;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 150px 20px 130px 150px;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+
+.sheet-character-data {
+    display: grid;
+    grid-template-columns: 300px 550px;
+    grid-template-rows: 150px;
+    grid-template-areas: "persondata livedata";
 }

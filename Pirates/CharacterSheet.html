@@ -1,7 +1,58 @@
 <div class="sheet-pirates">
     <div class="sheet-character-title">
         <img name="attr_character_avatar">
-        <img name="attr_character_token">
-        <input type="text" class="sheet-character-name" name="attr_character_name">
+        <img name="attr_character_token">        
+    </div>
+    <div class="sheet-character-data">
+        <div class="sheet-character-persondata sheet-table-content">
+            <span class="sheet-attribute-label">Name</span>
+            <input type="text" name="attr_character_name" />
+
+            <span class="sheet-attribute-label">Geschlecht</span>
+            <select name="attr_character_sex">
+                <option></option>
+                <option>Männlich</option>
+                <option>Weiblich</option>
+                <option>Divers</option>
+            </select>
+
+            <span class="sheet-attribute-label">Alter</span>
+            <input type="text" name="attr_character_age" />
+
+            <span class="sheet-attribute-label">Heimatinsel</span>
+            <input type="text" name="attr_character_home" />
+        </div>
+
+        <div class="sheet-character-livedata sheet-table-content">
+            <span class="sheet-attribute-label">Stufe</span>
+            <input type="text" name="attr_character_level" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <span class="sheet-attribute-label">Lernpunkte</span>
+            <input type="text" name="attr_character_xp" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <span class="sheet-attribute-label">Wundenlimit</span>
+            <input type="text" name="attr_character_maxwounds" />
+
+            <span></span>
+
+            <span class="sheet-attribute-label">Aktuelle Wunden</span>
+            <input type="text" name="attr_character_currentwounds" />       
+
+            <span class="sheet-attribute-label">Ausdauer</span>
+            <input type="text" name="attr_character_maxendurance" />
+
+            <span></span>
+
+            <span class="sheet-attribute-label">Aktuelle Ausdauer</span>
+            <input type="text" name="attr_character_currentendurance" />
+        </div>
     </div>
 </div>
